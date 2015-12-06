@@ -54,5 +54,5 @@ if [ ${GenP12} == "1" ]; then
 fi
 
 if [ ${GenTar} == "1" ]; then
-  tar zcvf ${ClientName}_Linux.tar.gz ipsec.d/private/${ClientName}Key.pem ipsec.d/certs/${ClientName}Cert.pem ipsec.d/cacerts/strongswanCert.pem
+  tar zcvf ~/${ClientName}_Linux.tar.gz ipsec.d/private/${ClientName}Key.pem ipsec.d/certs/${ClientName}Cert.pem ipsec.d/cacerts/strongswanCert.pem
 fi
