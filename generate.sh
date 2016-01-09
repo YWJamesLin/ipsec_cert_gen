@@ -11,7 +11,7 @@ KeySize="4096"
 
 CAName="StrongSwanCA"
 LeftName="Server"
-RightName="Client"
+RightName="Client_${Server}"
 
 CALifeTime="3650"
 LeftLifeTime="3650"
