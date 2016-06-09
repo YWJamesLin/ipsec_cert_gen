@@ -25,7 +25,7 @@ RightLifeTime="3650"
 
 CASanFlagString=""
 LeftSanFlagString="--flag serverAuth --flag ikeIntermediate"
-RightSanFlagString=""
+RightSanFlagString="--san ${RightName}"
 
 GenCA="1"
 GenLeft="1"
